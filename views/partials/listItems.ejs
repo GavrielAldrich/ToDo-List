@@ -1,0 +1,8 @@
+<div class="listContainer" id="listContainer">
+    <% myItems.forEach((toDo, index) => { %>
+    <div class="anItem">
+        <input type="checkbox" style="margin-left: 10px;" onclick="toggleLineThrough(this)">
+        <p><%- toDo %></p>
+    </div>
+    <% }) %>
+</div>

@@ -1,0 +1,16 @@
+<%- include ("partials/header.ejs") %>
+
+    <content class="currentDateContainer">
+        <h1><%= currentDate %></h1>
+        <%- include("partials/listItems.ejs") %>
+        <form action="/" method="POST">
+            <div class="itemsList mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="New List Item" name="lists">
+                <button type="submit" style="border-radius: 50%; margin-left: 25px; width: 55px; height: 50px;">+</button>
+              </div>
+        </form>
+    </content>
+
+
+</main>
+<%- include ("partials/footer.ejs") %>

@@ -1,0 +1,50 @@
+svg {
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+footer, article, main{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+content > h1{
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(33, 37, 41);
+}
+content.workListContainer > h1{
+    padding: 10px 180px;
+}
+
+main form .itemsList{
+    display: flex;
+    flex-direction: row;
+}
+
+.anItem{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.anItem p {
+    margin: auto;
+}
+
+button{
+    border: 0px;
+}
+
+.listContainer{
+    min-height: 49vh;
+}
+.listContainer button svg{
+    margin: 0px;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
