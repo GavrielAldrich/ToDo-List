@@ -1,5 +1,5 @@
 # How to Run the To Do List 
--  Make sure you are inside the ToDo-List Folder, your Command Line should look like this _**~/ToDo-List**_
+-  Make sure you are inside the ToDo-List Folder, your Command Line should look like this _**~Document/yourfile/ToDo-List**_
 -  Type `npm i` on your Command line to install the Node Package Manager.
 -  If you have done installed the NPM, you can type :
 
