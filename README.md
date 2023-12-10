@@ -9,4 +9,4 @@
    
 -  Now click this link _**http://localhost:3000**_ to run the ToDo List.
 
-Powered by Node.JS and EJS.
+This project is powered by Node.JS and EJS.
